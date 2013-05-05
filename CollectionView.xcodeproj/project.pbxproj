@@ -18,6 +18,13 @@
 		88689E6616B32A7A003DD3C1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88689E6516B32A7A003DD3C1 /* Default-568h@2x.png */; };
 		88689E6916B32A7A003DD3C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88689E6816B32A7A003DD3C1 /* ViewController.m */; };
 		88689E6C16B32A7A003DD3C1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88689E6A16B32A7A003DD3C1 /* ViewController.xib */; };
+		88689E7416B32AF8003DD3C1 /* CustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 88689E7316B32AF8003DD3C1 /* CustomFlowLayout.m */; };
+		88689E7916B32CFB003DD3C1 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88689E7816B32CFB003DD3C1 /* Cell.xib */; };
+		88D51B0816B3E17C008C1256 /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D51B0716B3E17C008C1256 /* CircleLayout.m */; };
+		88D51B0C16B3E389008C1256 /* LineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D51B0B16B3E389008C1256 /* LineLayout.m */; };
+		88D51B0E16B3E564008C1256 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D51B0D16B3E564008C1256 /* QuartzCore.framework */; };
+		88EC493C16C077E200B9778F /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EC493B16C077E200B9778F /* Cell.m */; };
+		88EC493F16C07A0D00B9778F /* PinchFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EC493E16C07A0D00B9778F /* PinchFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,18 @@
 		88689E6716B32A7A003DD3C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		88689E6816B32A7A003DD3C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		88689E6B16B32A7A003DD3C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		88689E7216B32AF8003DD3C1 /* CustomFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFlowLayout.h; sourceTree = "<group>"; };
+		88689E7316B32AF8003DD3C1 /* CustomFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFlowLayout.m; sourceTree = "<group>"; };
+		88689E7816B32CFB003DD3C1 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		88D51B0616B3E17C008C1256 /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		88D51B0716B3E17C008C1256 /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
+		88D51B0A16B3E389008C1256 /* LineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineLayout.h; sourceTree = "<group>"; };
+		88D51B0B16B3E389008C1256 /* LineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineLayout.m; sourceTree = "<group>"; };
+		88D51B0D16B3E564008C1256 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		88EC493A16C077E200B9778F /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		88EC493B16C077E200B9778F /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		88EC493D16C07A0D00B9778F /* PinchFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchFlowLayout.h; sourceTree = "<group>"; };
+		88EC493E16C07A0D00B9778F /* PinchFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D51B0E16B3E564008C1256 /* QuartzCore.framework in Frameworks */,
 				88689E5016B32A7A003DD3C1 /* UIKit.framework in Frameworks */,
 				88689E5216B32A7A003DD3C1 /* Foundation.framework in Frameworks */,
 				88689E5416B32A7A003DD3C1 /* CoreGraphics.framework in Frameworks */,
@@ -57,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				88689E5516B32A7A003DD3C1 /* CollectionView */,
+				88689E5616B32A7A003DD3C1 /* Supporting Files */,
 				88689E4E16B32A7A003DD3C1 /* Frameworks */,
 				88689E4C16B32A7A003DD3C1 /* Products */,
 			);
@@ -73,6 +94,7 @@
 		88689E4E16B32A7A003DD3C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				88D51B0D16B3E564008C1256 /* QuartzCore.framework */,
 				88689E4F16B32A7A003DD3C1 /* UIKit.framework */,
 				88689E5116B32A7A003DD3C1 /* Foundation.framework */,
 				88689E5316B32A7A003DD3C1 /* CoreGraphics.framework */,
@@ -83,12 +105,13 @@
 		88689E5516B32A7A003DD3C1 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				88EC494116C0800600B9778F /* Layouts */,
+				88EC494016C07FF700B9778F /* Cell */,
 				88689E5E16B32A7A003DD3C1 /* AppDelegate.h */,
 				88689E5F16B32A7A003DD3C1 /* AppDelegate.m */,
 				88689E6716B32A7A003DD3C1 /* ViewController.h */,
 				88689E6816B32A7A003DD3C1 /* ViewController.m */,
 				88689E6A16B32A7A003DD3C1 /* ViewController.xib */,
-				88689E5616B32A7A003DD3C1 /* Supporting Files */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -105,6 +128,32 @@
 				88689E6516B32A7A003DD3C1 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		88EC494016C07FF700B9778F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				88EC493A16C077E200B9778F /* Cell.h */,
+				88EC493B16C077E200B9778F /* Cell.m */,
+				88689E7816B32CFB003DD3C1 /* Cell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		88EC494116C0800600B9778F /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				88689E7216B32AF8003DD3C1 /* CustomFlowLayout.h */,
+				88689E7316B32AF8003DD3C1 /* CustomFlowLayout.m */,
+				88D51B0616B3E17C008C1256 /* CircleLayout.h */,
+				88D51B0716B3E17C008C1256 /* CircleLayout.m */,
+				88D51B0A16B3E389008C1256 /* LineLayout.h */,
+				88D51B0B16B3E389008C1256 /* LineLayout.m */,
+				88EC493D16C07A0D00B9778F /* PinchFlowLayout.h */,
+				88EC493E16C07A0D00B9778F /* PinchFlowLayout.m */,
+			);
+			name = Layouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +212,7 @@
 				88689E6416B32A7A003DD3C1 /* Default@2x.png in Resources */,
 				88689E6616B32A7A003DD3C1 /* Default-568h@2x.png in Resources */,
 				88689E6C16B32A7A003DD3C1 /* ViewController.xib in Resources */,
+				88689E7916B32CFB003DD3C1 /* Cell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +226,11 @@
 				88689E5C16B32A7A003DD3C1 /* main.m in Sources */,
 				88689E6016B32A7A003DD3C1 /* AppDelegate.m in Sources */,
 				88689E6916B32A7A003DD3C1 /* ViewController.m in Sources */,
+				88689E7416B32AF8003DD3C1 /* CustomFlowLayout.m in Sources */,
+				88D51B0816B3E17C008C1256 /* CircleLayout.m in Sources */,
+				88D51B0C16B3E389008C1256 /* LineLayout.m in Sources */,
+				88EC493C16C077E200B9778F /* Cell.m in Sources */,
+				88EC493F16C07A0D00B9778F /* PinchFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +349,7 @@
 				88689E7116B32A7A003DD3C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
